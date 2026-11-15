@@ -7,6 +7,10 @@
 
 /** @type {Array<{name:string, role?:{fr:string, en:string}}>} */
 export const TEAM = [
+  { name: 'Maximiliano LABORDE', role: { fr: '', en: '' } },
+  { name: 'Elliott DU REAU DE LA GAIGNONNIERE', role: { fr: '', en: '' } },
+  { name: 'Quentin GIANNINI', role: { fr: '', en: '' } },
+  { name: 'Mathis MUNOZ', role: { fr: '', en: '' } },
+  { name: 'Bastien BONALDI', role: { fr: '', en: '' } },
   { name: 'Nathanael DURAND', role: { fr: '', en: '' } },
-  { name: 'Damien NIOCHE', role: { fr: '', en: '' } },
 ];
