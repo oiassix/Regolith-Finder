@@ -71,8 +71,8 @@ These challenges required us to consider not only the scientific relevance of th
 
 ## Download and run
 
-On GitHub, select **Code > Download ZIP** and extract the archive. GitHub puts the complete project, including its data, in a repository-named folder. From that folder, double-click `LANCER.bat` on Windows or run `./lancer.sh` on macOS/Linux.
+On GitHub, select **Code > Download ZIP** and extract the archive. GitHub puts the complete project, including its data, in a repository-named folder. From that folder, double-click `start.bat` on Windows or run `./start.sh` on macOS/Linux.
 
-## Run online or publish your own copy
+## Download and run
 
-After GitHub Pages is enabled, the site is available at [https://oiassix.github.io/regolith-finder/](https://oiassix.github.io/regolith-finder/) without manually downloading the project. See [the deployment guide](./docs/DEPLOYMENT.md) to enable Pages, publish a fork without a local clone, or launch locally. The static Pages version does not provide server-only features such as live JPL Horizons requests.
+Download the [project ZIP](https://github.com/oiassix/Regolith-Finder/archive/refs/heads/main.zip) and extract it. From the extracted folder, double-click `start.bat` on Windows or run `./start.sh` on macOS/Linux. See [the deployment guide](./docs/DEPLOYMENT.md) to publish a copy through GitHub Pages.

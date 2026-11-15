@@ -76,7 +76,7 @@ les calques illustratifs qu'elles produisaient sont remplacés par des données 
 6. **Dimensionnement énergétique** : pré-dimensionnement ; les ordres de grandeur cités (ISS, Fission
    Surface Power, Kilopower) n'ont pas été revérifiés en ligne pour cette version.
 7. **Jamais essayé sur un vrai Windows ni sur une vraie carte graphique** : tous les essais ont tourné sur
-   Linux, dans Chromium sans écran avec un rendu WebGL logiciel. `LANCER.bat` n'a jamais été exécuté.
+   Linux, dans Chromium sans écran avec un rendu WebGL logiciel. `start.bat` n'a jamais été exécuté.
 8. Firefox, Safari, lecteur d'écran, écran tactile réel : non testés.
 
 ## 6. Tests exécutés

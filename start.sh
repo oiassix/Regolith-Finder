@@ -1,9 +1,9 @@
 0#!/usr/bin/env bash
-# Regolith Finder — lancement sous macOS ou Linux :  ./lancer.sh   (ou : bash lancer.sh)
+# Regolith Finder — launch on macOS or Linux:  ./start.sh   (or: bash start.sh)
 #   1. Node.js 18 ou plus : serveur local complet (server.mjs), qui ouvre le navigateur.
 #   2. Sinon Python 3.7+ : serveur de fichiers ; l'outil fonctionne sans les fonctions en ligne.
 #   3. Sinon : explication de ce qu'il faut installer.
-# Les options sont transmises à server.mjs (ex. ./lancer.sh --port 9000 --no-open).
+# Les options sont transmises à server.mjs (ex. ./start.sh --port 9000 --no-open).
 cd "$(dirname "$0")" || exit 1
 
 if command -v node >/dev/null 2>&1; then
@@ -30,6 +30,6 @@ fi
 echo
 echo "  Ni Node.js (18 ou plus) ni Python 3 n'ont été trouvés sur cette machine."
 echo "  Installez Node.js, version LTS : https://nodejs.org"
-echo "  puis relancez :  ./lancer.sh"
+echo "  puis relancez :  ./start.sh"
 echo
 exit 1

@@ -21,7 +21,7 @@ with zipfile.ZipFile(out, 'w', zipfile.ZIP_DEFLATED, compresslevel=6) as z:
             if rel.endswith(('.pyc', '.log')) or f == '.DS_Store':
                 continue
             info = zipfile.ZipInfo.from_file(p, os.path.join('regolith-finder', rel))
-            if rel in ('lancer.sh', 'tools/build_zip.sh', 'tools/fetch_raw.sh'):
+            if rel in ('start.sh', 'tools/build_zip.sh', 'tools/fetch_raw.sh'):
                 info.external_attr = (0o755 & 0xFFFF) << 16
             comp = zipfile.ZIP_STORED if rel.endswith(('.jpg', '.png', '.webp')) else zipfile.ZIP_DEFLATED
             with open(p, 'rb') as fh:

@@ -42,7 +42,7 @@ echo   Lancement avec Python : serveur de fichiers simple.
 echo   L'outil fonctionne avec les donnees embarquees.
 echo   Fonctions en ligne COUPEES : comparaison a JPL Horizons, test des sources, telechargements.
 echo   Pour les activer : installez Node.js, version LTS, depuis https://nodejs.org
-echo   puis relancez LANCER.bat.
+echo   puis relancez start.bat.
 echo.
 %PY% server-lite.py %*
 if errorlevel 1 goto failed
@@ -52,7 +52,7 @@ goto end
 echo.
 echo   Ni Node.js ni Python 3 n'ont ete trouves.
 echo   Installez Node.js, version LTS, depuis https://nodejs.org
-echo   en gardant les options proposees, puis double-cliquez de nouveau sur LANCER.bat.
+echo   en gardant les options proposees, puis double-cliquez de nouveau sur start.bat.
 echo.
 pause
 goto end
