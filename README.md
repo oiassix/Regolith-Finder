@@ -72,3 +72,7 @@ These challenges required us to consider not only the scientific relevance of th
 ## Download and run
 
 On GitHub, select **Code > Download ZIP** and extract the archive. GitHub puts the complete project, including its data, in a repository-named folder. From that folder, double-click `LANCER.bat` on Windows or run `./lancer.sh` on macOS/Linux.
+
+## Run online or publish your own copy
+
+After GitHub Pages is enabled, the site is available at [https://oiassix.github.io/rego/](https://oiassix.github.io/rego/) without manually downloading the project. See [the deployment guide](./docs/DEPLOYMENT.md) to enable Pages, publish a fork without a local clone, or launch locally. The static Pages version does not provide server-only features such as live JPL Horizons requests.

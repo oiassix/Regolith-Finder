@@ -1,7 +1,7 @@
 @echo off
 rem Regolith Finder - lancement sous Windows (double-clic).
 rem   1. Node.js 18 ou plus : serveur local complet (server.mjs), qui ouvre le navigateur.
-rem   2. Sinon Python 3 : simple serveur de fichiers ; l'outil fonctionne, sans les fonctions en ligne.
+rem   2. Sinon Python 3.7 ou plus : serveur simple, sans les fonctions en ligne.
 rem   3. Sinon : explication de ce qu'il faut installer.
 rem Texte volontairement sans accents : l'affichage de cmd depend de la page de codes.
 chcp 65001 >nul
@@ -28,10 +28,10 @@ echo   Node.js n'est pas installe sur cet ordinateur.
 
 :trypython
 set "PY="
-python -c "import sys; sys.exit(0 if sys.version_info[0] == 3 else 1)" >nul 2>nul
+python -c "import sys; sys.exit(0 if sys.version_info >= (3, 7) else 1)" >nul 2>nul
 if not errorlevel 1 set "PY=python"
 if defined PY goto python
-py -3 -c "import sys" >nul 2>nul
+py -3 -c "import sys; sys.exit(0 if sys.version_info >= (3, 7) else 1)" >nul 2>nul
 if not errorlevel 1 set "PY=py -3"
 if defined PY goto python
 goto nothing
@@ -44,13 +44,7 @@ echo   Fonctions en ligne COUPEES : comparaison a JPL Horizons, test des sources
 echo   Pour les activer : installez Node.js, version LTS, depuis https://nodejs.org
 echo   puis relancez LANCER.bat.
 echo.
-echo   Adresse : http://127.0.0.1:3000/
-echo   Arret   : fermez cette fenetre, ou Ctrl+C.
-echo.
-rem Le navigateur s'ouvre deux secondes plus tard, le temps que le serveur demarre.
-start "" /min cmd /c "timeout /t 2 /nobreak >nul & start http://127.0.0.1:3000/"
-rem Types MIME imposes : sur certains postes, Python sert les .js en text/plain et le navigateur les refuse.
-%PY% -c "import functools, http.server as h; H = h.SimpleHTTPRequestHandler; H.extensions_map.update({'.js': 'text/javascript', '.mjs': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.svg': 'image/svg+xml'}); h.test(HandlerClass=functools.partial(H, directory='public'), port=8080, bind='127.0.0.1')"
+%PY% server-lite.py %*
 if errorlevel 1 goto failed
 goto end
 
