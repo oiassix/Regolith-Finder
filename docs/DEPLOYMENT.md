@@ -3,7 +3,7 @@
 ## Utiliser le site sans télécharger le projet
 
 Une fois GitHub Pages activé pour ce dépôt, le site sera accessible à l'adresse
-[https://oiassix.github.io/rego/](https://oiassix.github.io/rego/). L'utilisateur ouvre simplement le lien dans
+[https://oiassix.github.io/regolith-finder/](https://oiassix.github.io/regolith-finder/). L'utilisateur ouvre simplement le lien dans
 son navigateur : il n'a pas à télécharger ni installer le projet. Le navigateur charge automatiquement les
 fichiers du site et les données dont il a besoin.
 
@@ -16,12 +16,12 @@ vérification des sources, téléchargements à la demande et cache disque — r
 Le moyen le plus simple est de créer un fork directement sur GitHub. Cela copie le projet entre dépôts GitHub,
 sans le télécharger sur l'ordinateur.
 
-1. Connectez-vous à GitHub, ouvrez le dépôt `oiassix/rego` et cliquez sur **Fork**.
+1. Connectez-vous à GitHub, ouvrez le dépôt `oiassix/regolith-finder` et cliquez sur **Fork**.
 2. Dans votre fork, ouvrez **Actions**. Si GitHub propose d'activer les workflows, acceptez.
 3. Ouvrez **Settings > Pages** et sélectionnez **GitHub Actions** comme source de déploiement.
 4. Ouvrez le workflow **Deploy GitHub Pages** dans **Actions**, cliquez **Run workflow** et choisissez la branche
    `main`. Le workflow publie le contenu du dossier `public/`.
-5. À la fin du déploiement, ouvrez `https://VOTRE-PSEUDO.github.io/rego/`. Remplacez `VOTRE-PSEUDO` par votre
+5. À la fin du déploiement, ouvrez `https://VOTRE-PSEUDO.github.io/regolith-finder/`. Remplacez `VOTRE-PSEUDO` par votre
    nom d'utilisateur GitHub. Le lien est aussi affiché dans **Settings > Pages**.
 
 Après cette première configuration, les changements envoyés sur `main` republient automatiquement le site.

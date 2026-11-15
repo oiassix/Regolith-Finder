@@ -75,4 +75,4 @@ On GitHub, select **Code > Download ZIP** and extract the archive. GitHub puts t
 
 ## Run online or publish your own copy
 
-After GitHub Pages is enabled, the site is available at [https://oiassix.github.io/rego/](https://oiassix.github.io/rego/) without manually downloading the project. See [the deployment guide](./docs/DEPLOYMENT.md) to enable Pages, publish a fork without a local clone, or launch locally. The static Pages version does not provide server-only features such as live JPL Horizons requests.
+After GitHub Pages is enabled, the site is available at [https://oiassix.github.io/regolith-finder/](https://oiassix.github.io/regolith-finder/) without manually downloading the project. See [the deployment guide](./docs/DEPLOYMENT.md) to enable Pages, publish a fork without a local clone, or launch locally. The static Pages version does not provide server-only features such as live JPL Horizons requests.
