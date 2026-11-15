@@ -3,6 +3,7 @@ A permanent lunar outpost is the next ambition of human exploration, but the Moo
 Users can explore the lunar surface, compare different landing locations, and access scientific and geographical data provided by NASA to better understand what each site offers. Beyond the predefined locations, users can also pick any point on the Moon themselves. By selecting a spot directly on the map, they can retrieve the available scientific and geographical information for that area and use it as their own landing site. This gives them the freedom to investigate places outside NASA’s existing candidate regions.
 
 1- What does Regolith Finder do ?
+
 Our project, entitled Lunar Landing Site Navigator, is an interactive web application designed to assist in the planning and study of future lunar exploration missions and the establishment of lunar bases. The site is based on an interactive lunar globe on which users can view, activate and compare various features of the lunar surface and environment in order to identify the areas best suited to the development of a base. 
 
 We have grouped the key parameters for site selection into several categories: 
@@ -14,6 +15,7 @@ Communication with Earth: possibilities for communication with ground stations, 
 Users can select the characteristics they wish to examine using tick boxes and sliders. Each selection activates a coloured visualisation layer on the globe, accompanied by its legend. This allows users to visualise and cross-reference different parameters in order to compare potential sites and gain a better understanding of their advantages and constraints.
 
 2- What benefits does it have ?
+
 Lunar Landing Site Navigator offers several benefits for the preparation and planning of future lunar missions. 
 
 First, it centralizes a wide range of lunar scientific data provided by NASA within a single interactive platform. This avoids having to consult numerous separate scientific maps and datasets. 
@@ -27,6 +29,7 @@ Finally, the platform allows users to compare several potential landings or sett
 This flexibility makes the tool useful for exploring different settlement strategies and identifying locations that best match specific mission requirements. 
 
 3- What is the intended impact of the project ?
+
 Our project has two main objectives. 
 
 Firstly, Regolith Finder aims to simplify the preparation of future lunar exploration and settlement missions, particularly when identifying and comparing potential areas for development. By bringing together various scientific datasets in one interactive platform, it helps users understand the advantages and constraints of different locations. It could also facilitate decision-making and the assessment of alternative sites when mission requirements change, including during late planning stages. The platform is not intended to replace existing specialized scientific software or high-precision site selection tools. Instead, it provides a complementary interface that makes information easier to access, interpret, and compare. 
@@ -37,6 +40,7 @@ We hope to make lunar exploration more understandable and engaging, while encour
 
 
  4- What tools, coding languages, hardware, or software did you use?
+
 The project was developed using HTML, CSS, Python and JavaScript, which form the foundation of the website's interface and interactive features.
 
 We also integrated a 3D model of the Moon in STL format, which serves as the basis for the interactive three-dimensional globe and allows users to explore lunar locations and visualize different scientific data layers.
@@ -46,6 +50,7 @@ The scientific data used in the application come from various institutional sour
 The project will be hosted on GitHub, providing access to the website's source code and making the project available online. A complete list of the data sources and references is provided at the end of the project submission.
 
 5- How is your project creative ?
+
 The creativity of Rigolith Finder lies in its combination of an intuitive interface, interactive features, and scientific information within a single platform.  Rather than simply displaying lunar maps, our project offers an interactive 3D environment where users can activate different data layers, explore specific locations, and compare multiple potential sites. 
 
 One of its key features is the ability to evaluate and compare lunar locations according to user-defined criteria, allowing different mission priorities and development strategies to be explored. Another aspect of its originality is its dual purpose: the platform is designed to be useful for professionals involved in lunar mission planning while remaining accessible and engaging for students, teachers and space enthusiasts. 
@@ -53,6 +58,7 @@ One of its key features is the ability to evaluate and compare lunar locations a
 By bringing together technical information and an accessible user experience, we aim to bridge the gap between specialized scientific tools and public lunar exploration resources.
 
 6 - What factors did your team consider ?
+
 Several important factors were considered throughout the development of our project.
 
 Scientific reliability: We prioritized data from recognized institutional sources, particularly NASA and other space and geological agencies, to ensure that the information displayed is based on credible scientific resources.
