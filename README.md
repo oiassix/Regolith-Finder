@@ -68,3 +68,7 @@ Flexibility: Users can choose their own evaluation criteria and priorities, allo
 Accessibility: We wanted the application to be useful to both professionals and a wider audience, including students, teachers and space enthusiasts.
 Technical constraints: One of our main challenges was integrating scientific datasets from different sources into our website. We also had to adapt existing lunar data maps, such as minimum temperature maps, to our 3D lunar model. Differences in scale, resolution and map projections made this integration particularly challenging.
 These challenges required us to consider not only the scientific relevance of the data, but also how to process, adapt and display it accurately within a unified interactive environment.
+
+## Download and run
+
+On GitHub, select **Code > Download ZIP** and extract the archive. GitHub puts the complete project, including its data, in a repository-named folder. From that folder, double-click `LANCER.bat` on Windows or run `./lancer.sh` on macOS/Linux.

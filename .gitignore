@@ -5,9 +5,5 @@ tests/node_modules/
 tests/.out/
 livrables/
 .cache/
-public/data/*.i16
-public/data/*.u8
-public/data/*.u16
-public/data/*.jpg
 node_modules/
 tests/jury/out/
